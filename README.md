@@ -2,6 +2,14 @@
 
 This project is a hands-on laboratory for exploring and understanding the fundamental concepts of the Angular framework. It includes practical examples of data binding, pipes, directives, and RxJS integration within an Angular application.
 
+## Live Demo
+
+Below is a running demonstration of the project's features, including the payment form and the RxJS visualization.
+
+*(You can replace `Screenshot panyment-pipes.png` with the actual name of your image file)*
+
+!Project Demo
+
 ## Features Demonstrated
 
 This application is divided into two main sections: a payment form and an RxJS `ReplaySubject` visualization.
