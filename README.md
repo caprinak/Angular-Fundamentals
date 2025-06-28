@@ -6,7 +6,7 @@ This project is a hands-on laboratory for exploring and understanding the fundam
 
 Below is a running demonstration of the project's features, including the payment form and the RxJS visualization.
 
- !https://github.com/caprinak/Angular-Fundamentals/issues/1#issue-3184539206
+![Demo pics][https://github.com/caprinak/Angular-Fundamentals/issues/1#issue-3184539206]
 !Project Demo
 
 ## Features Demonstrated
