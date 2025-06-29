@@ -1,0 +1,43 @@
+<div class="container">
+    <h3>ReplaySubject Visualization</h3>
+    <p>
+      A ReplaySubject records multiple values from the source Observable and
+      replays them to new subscribers.
+    </p>
+    <button (click)="runReplaySubjectDemo()" class="btn btn-primary mb-3">
+      Run Demo
+    </button>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Subscription 1</h5>
+        <p><strong>Status:</strong> {{ sub1Status }}</p>
+        <ul class="list-group">
+          <li *ngFor="let val of sub1Values" class="list-group-item">
+            Received: {{ val }}
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Subscription 2</h5>
+        <p><strong>Status:</strong> {{ sub2Status }}</p>
+        <ul class="list-group">
+          <li *ngFor="let val of sub2Values" class="list-group-item">
+            Received: {{ val }}
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Subscription 3</h5>
+        <p><strong>Status:</strong> {{ sub3Status }}</p>
+        <ul class="list-group">
+          <li *ngFor="let val of sub3Values" class="list-group-item">
+            Received: {{ val }}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <h5 class="mt-4">Logs</h5>
+    <pre><code><div *ngFor="let log of replayLogs">{{ log }}</div></code></pre>
+  </div>
